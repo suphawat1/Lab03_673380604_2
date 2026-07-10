@@ -2,6 +2,8 @@ package com.example;
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
 // ══════════════════════════════════════════════════════
 //  Test Cases — Section 3 : RocketShip Thailand
@@ -9,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 //            mvn -Dtest=ShipmentTest_Section3 test
 // ══════════════════════════════════════════════════════
 @DisplayName("Section 3 — RocketShip Thailand")
-class ShipmentTest_Section3 {
+public class ShipmentTest_Section3 {
 
     @Test
     @DisplayName("RS001: 2.0 กก. STANDARD ต้องได้ 80.00 บาท")
